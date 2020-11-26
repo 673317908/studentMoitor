@@ -1,0 +1,182 @@
+/* pages/statistics/index.wxss */
+@import "../../font/iconfont.wxss";
+
+page {
+  background: #f2f4fa;
+}
+
+view {
+  box-sizing: border-box;
+}
+
+.month_collect,
+.day_record {
+  width: 690rpx;
+  margin: 40rpx auto;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  background-color: #ffffff;
+}
+
+.month_collect_title,
+.day_record_title {
+  font-weight: 700;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40rpx;
+}
+
+.month_collect_number {
+  display: flex;
+  justify-content: space-around;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 48rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+}
+
+.text {
+  color: #5c5c5e;
+  text-align: center;
+}
+
+.day_record_calendar {
+  margin-top: 40rpx;
+}
+
+.calendar_list {
+  display: flex;
+  align-items: center;
+}
+
+.calendar_item {
+  font-size: 24rpx;
+  color: #979797;
+  width: 94rpx;
+  text-align: center;
+}
+
+.day_list {
+  display: flex;
+  align-items: center;
+  margin: 25rpx 0;
+}
+
+.day_item {
+  font-weight: 700;
+  width: 94rpx;
+  height: 94rpx;
+  line-height: 94rpx;
+  text-align: center;
+}
+
+.active_day_css {
+  border-radius: 50%;
+  background-color: #008fff;
+  color: white;
+}
+
+.line {
+  display: flex;
+  position: relative;
+}
+
+.line_l,
+.line_r {
+  width: 270rpx;
+  height: 1rpx;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.line_l {
+  margin-right: 50rpx;
+}
+
+.line_r {
+  margin-left: 40rpx;
+}
+
+.down {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rule {
+  margin-top: 40rpx;
+  color: #959595;
+  font-size: 24rpx;
+}
+
+.rule view {
+  margin: 20rpx 0;
+}
+
+/* 日期下面的点 */
+.af {
+  position: relative;
+}
+.af::after {
+  display: block;
+  content: "";
+  border-radius: 50%;
+  width: 10rpx;
+  height: 10rpx;
+  background-color: #eea605;
+  position: absolute;
+  top: 70rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+.card_record {
+  margin-top: 40rpx;
+  position: relative;
+}
+
+.card_record_item {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.card_record_item_r{
+  margin-left: 73rpx;
+  position: relative;
+  margin-bottom: 200rpx;
+}
+
+.offduty{
+  margin-bottom: 0;
+}
+
+.card_record_item_r::before{
+  display: block;
+  content: "";
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  background: #838995;
+  position: absolute;
+  top: 50%;
+  left: -65rpx;
+  transform: translateY(-50%);
+}
+
+.card_line {
+  height: 200rpx;
+  width: 6rpx;
+  background: #e8e8e8;
+  position: absolute;
+  top: 45rpx;
+  left: 14rpx;
+}

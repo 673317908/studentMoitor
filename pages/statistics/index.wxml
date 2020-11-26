@@ -1,0 +1,62 @@
+<!--pages/statistics/index.wxml-->
+<view class="month_collect">
+  <view class="month_collect_title">
+    <view>11月汇总</view>
+    <view class="iconfont icon-arrow-right" style="color:#c1c1c2;font-size:24rpx;"></view>
+  </view>
+  <view class="month_collect_number">
+    <view class="month_collect_late">
+      <view class="num">7</view>
+      <view class="text">请假（次）</view>
+    </view>
+    <view class="month_collect_late">
+      <view class="num">7</view>
+      <view class="text">迟到（次）</view>
+    </view>
+    <view class="month_collect_leave">
+      <view class="num">0</view>
+      <view class="text">早退（次）</view>
+    </view>
+  </view>
+</view>
+<view class="day_record">
+  <view class="day_record_title">
+    <view>每日记录<text style="color:#c1c1c2;margin-left:20rpx;font-weight:500;font-size:30rpx;">（11月）</text></view>
+  </view>
+  <!-- 日历 -->
+  <view class="day_record_calendar">
+    <view class="calendar_list">
+      <view class="calendar_item" wx:for="{{calendarArray}}" wx:key="index">
+        <text>{{item}}</text>
+      </view>
+    </view>
+    <view class="day_list">
+      <view class="{{activeIndex===index?['day_item','active_day_css']:'day_item'}}" wx:for="{{7}}" bindtap="activeDay"
+        data-index="{{index}}">23</view>
+    </view>
+  </view>
+  <view class="line">
+    <view class="line_l"></view>
+    <view class="iconfont icon-arrow-down down" style="font-size:60rpx;color:#e1e1e1;"></view>
+    <view class="line_r"></view>
+  </view>
+  <!-- 规则 -->
+  <view class="rule">
+    <view>
+      规则：固定上下班 A 09:00-18:00
+    </view>
+    <view>
+      共1次卡，工时0小时
+    </view>
+  </view>
+  <!-- 打卡时间、地点 -->
+  <view class="card_record">
+    <view class="card_record_item">
+      <view class="card_record_item_r">上班 09:14</view>
+    </view>
+    <view class="card_line"></view>
+    <view class="card_record_item ">
+      <view class="card_record_item_r offduty">下班 09:14</view>
+    </view>
+  </view>
+</view>
