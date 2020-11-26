@@ -1,4 +1,40 @@
 /* pages/statistics/detail/index.wxss */
+@import "../../../font/iconfont.wxss";
 page {
   background: #f8f8f8;
+}
+
+.detail_header {
+  margin-top: 20rpx;
+  border-top: 1rpx solid #eaeaea;
+  border-bottom: 1rpx solid #eaeaea;
+  padding: 20rpx;
+  background: white;
+}
+
+.avatar_info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar_info image {
+  width: 100rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.content_item {
+  border-bottom: 1rpx solid #eaeaea;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+
+.text_r{
+  color: #dcdcdc;
+}
+
+.icon_color {
+  color: #008fff;
 }
