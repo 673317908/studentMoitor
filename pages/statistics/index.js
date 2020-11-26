@@ -8,6 +8,12 @@ Page({
   data: {
     calendarArray: ['一', '二', '三', '四', '五', '六', '日'],
   },
+  // 跳转
+  jump(){
+    wx.navigateTo({
+      url: './detail/index',
+    })
+  },
   activeDay(e) {
     const { index } = e.currentTarget.dataset
     this.setData({

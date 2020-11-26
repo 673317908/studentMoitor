@@ -2,7 +2,7 @@
 <view class="month_collect">
   <view class="month_collect_title">
     <view>11月汇总</view>
-    <view class="iconfont icon-arrow-right" style="color:#c1c1c2;font-size:24rpx;"></view>
+    <view class="iconfont icon-arrow-right" style="color:#c1c1c2;font-size:24rpx;" bindtap="jump"></view>
   </view>
   <view class="month_collect_number">
     <view class="month_collect_late">

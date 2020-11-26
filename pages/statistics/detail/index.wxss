@@ -1,1 +1,4 @@
 /* pages/statistics/detail/index.wxss */
+page {
+  background: #f8f8f8;
+}
