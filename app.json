@@ -4,6 +4,10 @@
     "pages/statistics/index",
     "pages/statistics/detail/index",
     "pages/user/index",
+    "pages/user/child/index",
+    "pages/user/child/add/index",
+    "pages/user/time/index",
+    "pages/user/record/index",
     "pages/login/index"
   ],
   "tabBar": {
@@ -14,15 +18,21 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "images/home_icon_index_unhit.png",
+        "selectedIconPath": "images/home_index.png"
       },
       {
         "pagePath": "pages/statistics/index",
-        "text": "统计"
+        "text": "统计",
+        "iconPath": "images/home_icon_huiyuan_unhit.png",
+        "selectedIconPath": "images/home_icon_huiyuan.png"
       },
       {
         "pagePath": "pages/user/index",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "images/home_icon_wode_unhit.png",
+        "selectedIconPath": "images/home_icon_wode.png"
       }
     ],
     "position": "bottom"

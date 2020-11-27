@@ -1,38 +1,16 @@
-// pages/user/index.js
+// pages/user/child/add/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    navList: [
-      {
-        id: 1,
-        text: "我的孩子",
-        icon: "iconfont icon-haizi",
-        route: "./child/index"
-      },
-      {
-        id: 2,
-        text: "时间表",
-        icon: "iconfont icon-shijianbiao",
-        route: "./time/index"
-      },
-      {
-        id: 3,
-        text: "历史考勤记录",
-        icon: "iconfont icon-lishijilu",
-        route: "./record/index"
-      }
-    ]
+
   },
-  jump(e) {
-    const { url } = e.currentTarget.dataset
-    wx.navigateTo({
-      url: url,
-    })
+  formSubmit(e) {
+    console.log(e)
   },
-  /** 
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

@@ -1,0 +1,41 @@
+/* pages/user/child/add/index.wxss */
+page {
+  background: #e8e8e8;
+}
+
+.form_item {
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #e8e8e8;
+  background-color: white;
+}
+
+.form_button {
+  margin-top: 20rpx;
+}
+
+.btn-normal {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  font-size: unset;
+  text-align: unset;
+  overflow: visible;
+  color: inherit;
+}
+
+.form_button button {
+  height: 88rpx;
+  line-height: 88rpx;
+  background: linear-gradient(86deg, rgba(77, 211, 188, 1) 0%, rgba(107, 171, 250, 1) 100%);
+  color: #fff;
+  font-size: 30rpx;
+  border-radius: 999rpx;
+  text-align: center;
+  width: 630rpx;
+}

@@ -1,0 +1,16 @@
+<!--pages/user/child/add/index.wxml-->
+<view class="add_form">
+  <form bindsubmit="formSubmit">
+    <view class="form_item">
+      <view style="margin-right:30rpx;"><text style="color:red;margin-right:10rpx;">*</text>姓名</view>
+      <input type="text" name="name" placeholder="请输入姓名" />
+    </view>
+    <view class="form_item">
+      <view style="margin-right:30rpx;"><text style="color:red;margin-right:10rpx;">*</text>学号</view>
+      <input type="text" name="id" placeholder="请输入学号" />
+    </view>
+    <view class="form_button">
+      <button formType="submit" class="btn-normal">提交</button>
+    </view>
+  </form>
+</view>

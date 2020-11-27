@@ -1,2 +1,18 @@
 <!--pages/user/index.wxml-->
-<text>pages/user/index.wxml</text>
+<view class="my_heade">
+  <view class="my_info">
+    <view class="my_avater">
+      <image src="../../images/touxiang.png" mode="widthFix"></image>
+    </view>
+    <view class="my_name">..</view>
+  </view>
+</view>
+<view class="nav">
+  <view class="nav_title">导航</view>
+  <view class="nav_list">
+    <view class="nav_item" wx:for="{{navList}}" wx:key="id" bindtap="jump" data-url="{{item.route}}">
+      <view class="{{item.icon}}" style="font-size:50rpx;margin-bottom:15rpx;"></view>
+      <view>{{item.text}}</view>
+    </view>
+  </view>
+</view>

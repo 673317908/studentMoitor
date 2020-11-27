@@ -1,0 +1,24 @@
+/* pages/user/child/index.wxss */
+@import "../../../font/iconfont.wxss";
+
+.none_data {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  text-align: center;
+  color: #999999;
+}
+
+.add_child {
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  width: 750rpx;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  font-size: 30rpx;
+  background: linear-gradient(86deg, rgba(77, 211, 188, 1) 0%, rgba(107, 171, 250, 1) 100%);
+  padding: 30rpx 0;
+}

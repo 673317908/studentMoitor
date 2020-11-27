@@ -1,0 +1,8 @@
+<!--pages/user/child/index.wxml-->
+<view class="none_data">
+  <view class="iconfont icon-zanwushuju" style="font-size:310rpx"></view>
+  <view>暂无数据</view>
+</view>
+<view class="add_child" bindtap="addChild">
+  <text>添加孩子</text>
+</view>
